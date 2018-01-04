@@ -3,6 +3,14 @@
     <Version>0.0.1</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <Description>Fable bindings for Rebass</Description>
+    <PackageProjectUrl>https://github.com/maxdeviant/fable-bindings</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/maxdeviant/fable-bindings/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/maxdeviant/fable-bindings.git</RepositoryUrl>
+    <PackageTags>rebass;react;fsharp;fable</PackageTags>
+    <Authors>Marshall Bowers</Authors>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Fable.Rebass.fs" />
   </ItemGroup>
