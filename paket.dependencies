@@ -1,0 +1,13 @@
+source https://www.nuget.org/api/v2
+
+storage: none
+
+nuget Fable.Core
+nuget Fable.Import.Browser
+
+group Build
+  source https://www.nuget.org/api/v2
+  
+  nuget FAKE
+
+  github fable-compiler/fake-helpers Fable.FakeHelpers.fs
