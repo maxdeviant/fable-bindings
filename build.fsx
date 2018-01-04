@@ -6,7 +6,7 @@ open Fake
 open Fable.FakeHelpers
 
 let packages = [
-  "Rebass/Fable.Import.Rebass"
+  "Rebass/Fable.Rebass"
 ]
 
 #if MONO
